@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Courts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+
+}
+.Courtname{
+  border: solid 2px black;
+}
+
+.Court{
+  border: 2px solid black;
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.Side{
+  border-top: 1px solid black;
+}
+.SideB{
+  border-top: 1px solid black;
+  margin: 35% 0 0 0;
+}
+
+.Position {
+  display: flex;
+
+}
+
+.Playerdiv{
+  
+}
+
+.Position > div {
+  border: 1px solid black;
+  width: 50%;
+  }
+  .Bench{
+    border: solid 2px black;
+    height: 300px;
+    width: 200px;
+  }
